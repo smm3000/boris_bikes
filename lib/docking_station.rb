@@ -1,11 +1,11 @@
 class DockingStation
     def release_bike
-       return 'release bike'
+        Bike.new
     end 
 end 
 
 class Bike
     def working?
-        return 'Works'
+        true 
     end 
 end

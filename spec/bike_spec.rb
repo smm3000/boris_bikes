@@ -7,10 +7,10 @@ describe Bike do
 end
 
 describe Bike do
-    describe 'working' do
+    describe '#working?' do
         it 'responds to working?' do
-            working_bike = Bike.new
-            expect(working_bike.working?).to eq("Works")
+            my_bike = Bike.new
+            expect(my_bike.working?).to eq(true)
         end
     end
 end
